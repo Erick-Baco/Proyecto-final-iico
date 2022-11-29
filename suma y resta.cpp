@@ -28,7 +28,8 @@ int main()
 			resultado=n1-n2;
 			printf("\tla suma de %f y %f es: %f",n1,n2,resultado);
 		break;
-		
+		default:
+			printf("\topcion no valida");
 	}
 	
 	
