@@ -13,6 +13,7 @@ int main()
 	switch(opcion)
 	{
 		case 'S':
+			
 		break;
 		
 	}
