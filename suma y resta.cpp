@@ -8,11 +8,12 @@ int main()
 	printf("\n\t programa que suma y resta dos numeros");
 	
 	printf("\n\t ingresa (en may%csculas): \n\n\t -S para suma \n\t -R para resta",163);
-	getchar(opcion);
+	opcion=getchar();
 	
 	switch(opcion)
 	{
-		case 'S'
+		case 'S':
+		break;
 		
 	}
 	
