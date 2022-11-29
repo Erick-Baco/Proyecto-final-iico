@@ -13,7 +13,12 @@ int main()
 	switch(opcion)
 	{
 		case 'S':
-			
+				printf("\tescribe el primer numero:");
+				scanf("%f", &n1);
+				printf("\tescribe el segundo numero:");
+				scanf("%f", &n2);
+				resultado=n1+n2;
+				printf("\tla suma de %f y %f es: %f",n1,n2,resultado);
 		break;
 		case 'R':
 		break;
