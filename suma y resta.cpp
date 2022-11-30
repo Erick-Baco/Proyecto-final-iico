@@ -1,10 +1,12 @@
 #include <stdio.h>
+#include<stdlib.h>
+#include<windows.h>
 
 int main()
 {
 	float n1,n2,resultado;
 	char opcion;
-	
+	system("color c7");
 	printf("\n\t programa que suma y resta dos numeros");
 	
 	printf("\n\t ingresa (en may%csculas): \n\n\t -S para suma \n\t -R para resta\n\t",163);
